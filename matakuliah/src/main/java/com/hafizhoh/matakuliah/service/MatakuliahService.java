@@ -29,7 +29,7 @@ public class MatakuliahService {
     
     public void insert(Matakuliah matakuliah){
         Optional<Matakuliah> matakuliahOptional = 
-                matakuliahRepository.findMatakuliahByKode(matakuliah.getKode());
+                matakuliahRepository.findMatakuliahById(matakuliah.getId());
         if(matakuliahOptional.isPresent()){
             throw new IllegalStateException("Email Sudah Ada");
         }
