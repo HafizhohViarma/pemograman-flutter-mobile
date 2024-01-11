@@ -8,11 +8,11 @@
 		<version>3.1.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.hafizhoh</groupId>
+	<groupId>com.ervan</groupId>
 	<artifactId>mahasiswa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mahasiswa</name>
-	<description>Mahasiswa Demo</description>
+	<description>Mahasiswa Service</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
